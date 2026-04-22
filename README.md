@@ -1,48 +1,155 @@
 # E-HealthShield
-1. ONE-TIME SETUP (for eachone)
- git clone https://github.com/syedabdulla0710/E-HealthShield.git
- cd E-HealthShield
 
-2.Each member should ONLY use their branch:
-Frontend person:
-   git checkout frontend-setup
-Backend person:
-   git checkout backend-setup
-Blockchain person:
-   git checkout blockchain-setup
-Crypto person:
-   git checkout crypto-setup
+A Quantum-Secure and Blockchain-Auditable Framework for Electronic Health Records (EHRs)
 
-3.Before starting work (ALWAYS DO THIS)
-  git checkout your-branch-name
-  git pull origin your-branch-name
+---
 
-4.After coding (SAVE YOUR WORK)
-  git add .
-  git commit -m "your message"
-  git push origin your-branch-name
+## 🚀 One-Time Setup (for everyone)
 
-5.MERGING TO MAIN 
+```bash
+git clone https://github.com/syedabdulla0710/E-HealthShield.git
+cd E-HealthShield
+```
 
-👉 Do this only after work is ready
-Step 1: Go to GitHub
-Click Pull Requests
-Click New Pull Request
-Step 2:
-base → main
-compare → frontend-setup (or any branch)
-Step 3:
-Click Create Pull Request
-Click Merge Pull Request
+---
 
-6.AFTER MERGE (VERY IMPORTANT)
-Everyone must update their code:
-   git checkout main
-   git pull origin main
+## 🌿 Branch Usage (IMPORTANT)
 
-TEAM RULES (DON’T BREAK THESE)
-❌ NEVER:
-   git push origin main
+Each member must ONLY work on their assigned branch:
 
-SIMPLE FLOW (REMEMBER THIS)
+### 👨‍🎨 Frontend
+
+```bash
+git checkout frontend-setup
+```
+
+### ⚙️ Backend
+
+```bash
+git checkout backend-setup
+```
+
+### ⛓️ Blockchain
+
+```bash
+git checkout blockchain-setup
+```
+
+### 🔐 Crypto
+
+```bash
+git checkout crypto-setup
+```
+
+---
+
+## 🔄 Daily Workflow (FOLLOW THIS ALWAYS)
+
+### ✅ Before starting work
+
+```bash
+git checkout your-branch-name
+git pull origin your-branch-name
+```
+
+---
+
+### ✅ After coding (save your work)
+
+```bash
+git add .
+git commit -m "your message"
+git push origin your-branch-name
+```
+
+---
+
+## 🔀 Merging to Main (Team Lead / After completion)
+
+1. Go to **GitHub → Pull Requests**
+2. Click **New Pull Request**
+3. Select:
+
+   * base → `main`
+   * compare → your branch
+4. Click **Create Pull Request**
+5. Click **Merge Pull Request**
+
+---
+
+## 🔁 After Merge (VERY IMPORTANT)
+
+Everyone must update their local code:
+
+```bash
+git checkout main
+git pull origin main
+```
+
+Then go back to your branch:
+
+```bash
+git checkout your-branch-name
+git merge main
+```
+
+---
+
+## ⚠️ Team Rules (DON’T BREAK THESE)
+
+❌ NEVER DO:
+
+```bash
+git push origin main
+```
+
+✅ ALWAYS:
+
+* Work only on your branch
+* Pull before coding
+* Push after coding
+* Use Pull Requests to merge
+
+---
+
+## 🧠 Simple Flow (REMEMBER THIS)
+
+```
 Pull → Code → Add → Commit → Push → PR → Merge
+```
+
+---
+
+## 📁 Project Structure
+
+```
+E-HealthShield/
+│
+├── frontend/      # React + Web3 UI
+├── backend/       # FastAPI server
+├── blockchain/    # Smart contracts (Solidity)
+├── crypto/        # AES + Kyber + SSE
+└── docs/          # Reports & PPT
+```
+
+---
+
+## 👥 Team Members
+
+* Frontend Developer
+* Backend Developer
+* Blockchain Developer
+* Cryptography Developer
+
+---
+
+## 🎯 Project Goal
+
+To build a secure EHR system using:
+
+* AES-256 encryption
+* CRYSTALS-Kyber (Post-Quantum Cryptography)
+* Searchable Symmetric Encryption (SSE)
+* Ethereum Smart Contracts (ACL + Audit Log)
+
+---
