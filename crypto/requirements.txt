@@ -1,0 +1,5 @@
+# E-HealthShield -- Crypto Module Dependencies
+cryptography>=42.0.0      # AES-256-GCM
+kyber-py>=0.2.0           # CRYSTALS-Kyber (ML-KEM-768)
+PyPDF2>=3.0.0             # Optional: PDF text extraction for SSE keywords
+pytest>=8.0.0             # Unit testing
